@@ -22,7 +22,7 @@
   
   header h1 {
     margin: 0;
-    font-weight: normal;
+    font-weight: bold;
   }
   
   main {
@@ -48,6 +48,7 @@
     list-style-type: none;
     margin: 10px 0;
     padding: 0 0 0 40px;
+    font-size: x-large;
   }
 
   .details ul li.qr {
@@ -56,7 +57,6 @@
 
   .details ul li.wifi {
     background: url('wifi.svg') no-repeat center left;
-
   }
 
   .details ul li.cloud {
@@ -68,13 +68,15 @@
   }
 
   p {
-    text-align: center;
+    text-align: justify;
     font-size: xx-large;
+    
+ 
   }
 
   h3 {
     margin-top: 250px;
     text-align: center;
-    font-size:xx-large;
+    font-size: 70px;
     font-weight: 900;
   }
