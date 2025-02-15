@@ -44,27 +44,27 @@
   }
 
   .details ul li {
-    background: url('qrcode-solid.svg') no-repeat center left;
+    background: url('qrcode.svg') no-repeat center left;
     list-style-type: none;
     margin: 10px 0;
     padding: 0 0 0 40px;
   }
 
   .details ul li.qr {
-    background: url('qrcode-solid.svg') no-repeat center left;
+    background: url('qrcode.svg') no-repeat center left;
   }
 
   .details ul li.wifi {
-    background: url('wifi-solid 1.svg') no-repeat center left;
+    background: url('wifi.svg') no-repeat center left;
 
   }
 
   .details ul li.cloud {
-    background: url('cloud-arrow-up-solid 1.svg') no-repeat center left;
+    background: url('cloud-arrow-up.svg') no-repeat center left;
   }
 
   .details ul li.photo {
-    background: url('photo-film-solid 1.svg') no-repeat center left;
+    background: url('photo-film.svg') no-repeat center left;
   }
 
   p {
