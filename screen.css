@@ -44,11 +44,11 @@
   }
 
   .details ul li {
-    background: url('qrcode.svg') no-repeat center left;
     list-style-type: none;
-    margin: 10px 0;
+    margin: 10px 0px;
     padding: 0 0 0 40px;
-    font-size: x-large;
+    font-size: 30px;
+    line-height: 2;
   }
 
   .details ul li.qr {
@@ -80,3 +80,20 @@
     font-size: 70px;
     font-weight: 900;
   }
+
+  #rectangle{
+    width:1000px;
+    height:120px;
+    background: linear-gradient(#E2E2E2,#D6D7D6);
+    border-radius: 25px;
+  }
+
+  input{
+    width: 600px;
+    height:70px;
+  }
+
+:placeholder-shown{
+  font-size: 25px;
+  color: #424242;
+}
