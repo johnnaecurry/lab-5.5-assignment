@@ -10,22 +10,21 @@
      background: var(--main-bg-color);
      color: var(--primary-text-color);
      font-family: 'Inter', sans-serif;
-     margin: 0;
-     padding: 0;
+     margin: auto;
+     padding: auto;
 }
 
    
   header {
     padding: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
   }
   
   header h1 {
     margin: 0;
     font-weight: bold;
   }
-  
-  main {
+  main {    
     background: url('polaroid.png') no-repeat center 210px;
     margin: 0 auto;
     width: 1000px;
@@ -45,10 +44,9 @@
 
   .details ul li {
     list-style-type: none;
-    margin: 10px 0px;
-    padding: 0 0 0 40px;
+    margin: 50px 20px;
+    padding: 0 0 0 35px;   
     font-size: 30px;
-    line-height: 2;
   }
 
   .details ul li.qr {
@@ -67,33 +65,62 @@
     background: url('photo-film.svg') no-repeat center left;
   }
 
-  p {
+  p { line-height: 2;
+    font-size: 40px;
     text-align: justify;
-    font-size: xx-large;
     
- 
   }
 
   h3 {
-    margin-top: 250px;
+    margin-top: 180px;
     text-align: center;
     font-size: 70px;
     font-weight: 900;
   }
-
-  #rectangle{
-    width:1000px;
-    height:120px;
-    background: linear-gradient(#E2E2E2,#D6D7D6);
-    border-radius: 25px;
-  }
+#rectangle{ 
+  height:120px; 
+  width:1000px;
+ background: linear-gradient(#E2E2E2, #d6d7d6);
+ border-radius: 25px;
+ position:absolute;
+ top: 2800px;
+ left: 330px;
+ align-items: center;
+  z-index: -10;
+}
 
   input{
     width: 600px;
     height:70px;
+    margin-bottom: 100px;
   }
 
 :placeholder-shown{
   font-size: 25px;
+  font-family: 'Inter';
   color: #424242;
 }
+
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.input-field {
+  margin-right: 50px; 
+}
+
+button {
+  background-color: #FF3F3C;
+  color: #FFFF;
+  font-family: 'Inter';
+  font-size: 20px;
+  width: 200px;
+  height: 70px;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 0;
+  }
+
+
